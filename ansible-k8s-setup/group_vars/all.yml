@@ -1,0 +1,21 @@
+---
+# Kubernetes version
+kubernetes_version: "1.21.0"
+
+# Container runtime
+container_runtime: "containerd"
+
+# Network plugin
+network_plugin: "calico"
+
+# Pod network CIDR
+pod_network_cidr: "192.168.0.0/16"
+
+# Service network CIDR
+service_network_cidr: "10.96.0.0/12"
+
+# etcd specific variables
+etcd_version: "3.4.13"
+etcd_data_dir: "/var/lib/etcd"
+
+# Additional variables as needed
